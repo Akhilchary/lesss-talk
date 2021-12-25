@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto:wght@100;300&display=swap');
+
+body{
+    background-color: #c1e7f8;
+}
+h1{
+    font-family: Nunito;
+    margin-left: 40%;
+    font-size: 40px;  
+    margin-top: 100px; 
+    margin-bottom: 40px;
+}
+
+.login-btn{
+    background: rgb(79, 203, 207);
+    border-radius: 8px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 23px;
+    padding: 10px 40px 10px 40px;
+    text-decoration: none;
+    margin-left: 555px;
+}
+
+.login-btn:hover{
+    cursor: pointer;
+    background: #0ae2ff;
+    background-image: linear-gradient(to bottom, #0ae2ff, #3498db);
+}
+
+.reg-btn{
+    background: rgb(79, 203, 207);
+    border-radius: 8px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 23px;
+    padding: 10px 40px 10px 40px;
+    text-decoration: none;
+    margin-left: 70px;
+}
+
+.reg-btn:hover{
+    cursor: pointer;
+    background: #0ae2ff;
+    background-image: linear-gradient(to bottom, #0ae2ff, #3498db);
+}
