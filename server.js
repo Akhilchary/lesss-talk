@@ -83,6 +83,8 @@ app.get('/user/:id',(req,res)=>{
 const mongoose = require("mongoose");
 const formatMessage = require('./utils/messages');
 
+MONGO_URL="mongodb+srv://sano:sano@cluster0.cbcuk.mongodb.net/chatapp-users?retryWrites=true&w=majority";
+
 mongoose.connect(MONGO_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true
