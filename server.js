@@ -93,7 +93,7 @@ mongoose.connect(MONGO_URL, {
 app.use('/api/user', userRoute);
 
 
-
-server.listen(6969,()=>{
+const PORT=6969 ||  process.env.PORT;
+server.listen(PORT,()=>{
     console.log("server is running on 6969")
 })
